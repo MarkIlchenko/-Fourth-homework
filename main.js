@@ -27,7 +27,7 @@ switch (userLocation) {
         alert("You live in city: " + userLocation);
         break;
 }
-
+// let user
 
 let userFavoriteSport = prompt("Write your favorite kind of sport? ");
 switch (userFavoriteSport) {
