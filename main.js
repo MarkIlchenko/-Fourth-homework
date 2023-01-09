@@ -48,7 +48,10 @@ switch (userFavoriteSport) {
         break;
 }
 
-let userInformation = ["Your Date of Births is: " + userDate_of_Birth,"    ","You live in: " + userLocationTwo,"    ","Your favourite sport is: " + userFavoriteSport]
+
+let userInformation = ["Your Date of Births is: " + userDate_of_Birth,"    ","You live in: " + userLocation,"    ","Your favourite sport is: " + userFavoriteSport];
+
+// let userInformation = [userDate_of_Birth, userLocation,userFavoriteSport];
 
 alert(userInformation)
 
